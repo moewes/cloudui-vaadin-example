@@ -6,10 +6,8 @@ import net.moewes.cloudui.vaadin.AppLayout;
 import net.moewes.cloudui.vaadin.Tab;
 import net.moewes.cloudui.vaadin.Tabs;
 
-import javax.enterprise.context.RequestScoped;
 
 @CloudUiView("/vaadin/appLayout")
-@RequestScoped
 public class AppLayoutView extends AppLayout {
 
     public AppLayoutView() {

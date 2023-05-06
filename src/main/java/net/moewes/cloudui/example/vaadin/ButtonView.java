@@ -1,12 +1,12 @@
 package net.moewes.cloudui.example.vaadin;
 
+import jakarta.annotation.PostConstruct;
 import net.moewes.cloudui.annotations.CloudUiView;
 import net.moewes.cloudui.html.Div;
 import net.moewes.cloudui.html.Label;
 import net.moewes.cloudui.vaadin.Button;
 import net.moewes.cloudui.vaadin.HorizontalLayout;
 
-import javax.annotation.PostConstruct;
 import java.util.Arrays;
 
 @CloudUiView("/vaadin/button")
