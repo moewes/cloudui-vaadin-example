@@ -18,8 +18,8 @@
         <quarkus.platform.artifact-id>quarkus-universe-bom</quarkus.platform.artifact-id>
         <quarkus.platform.group-id>io.quarkus</quarkus.platform.group-id>
         <quarkus.platform.version>3.0.3.Final</quarkus.platform.version>
-        <surefire-plugin.version>3.0.0</surefire-plugin.version>
-        <azure.functions.maven.plugin.version>1.25.0</azure.functions.maven.plugin.version>
+        <surefire-plugin.version>3.1.0</surefire-plugin.version>
+        <azure.functions.maven.plugin.version>1.26.0</azure.functions.maven.plugin.version>
         <resources-plugin.version>3.3.1</resources-plugin.version>
         <!--suppress UnresolvedMavenProperty -->
         <functionAppName>${vaadin.azure.functionAppName}</functionAppName>
@@ -32,7 +32,6 @@
         <stagingDirectory>
             ${project.build.directory}/azure-functions/${functionAppName}
         </stagingDirectory>
-        <!--quarkus.package.type>uber-jar</quarkus.package.type-->
         <skipITs>true</skipITs>
     </properties>
 
