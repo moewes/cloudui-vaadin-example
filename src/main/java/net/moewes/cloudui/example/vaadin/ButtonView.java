@@ -1,5 +1,6 @@
 package net.moewes.cloudui.example.vaadin;
 
+
 import jakarta.annotation.PostConstruct;
 import net.moewes.cloudui.annotations.CloudUiView;
 import net.moewes.cloudui.html.Div;
