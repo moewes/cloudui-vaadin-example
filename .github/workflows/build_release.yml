@@ -40,6 +40,6 @@ jobs:
           USENAME: ${{github.actor}}
           PASSWORD: ${{ secrets.GITHUB_TOKEN }}
       - name: Publish package
-        run: mvn -B deploy
+        run: mvn -B deploy --settings settings.xml
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
