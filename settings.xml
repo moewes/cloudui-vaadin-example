@@ -20,5 +20,19 @@
       <password>${env.PASSWORD}</password>
     </server>
   </servers>
+  <activeProfiles>
+    <activeProfile>github</activeProfile>
+  </activeProfiles>
+
+  <profiles>
+    <profile>
+      <id>github</id>
+      <properties>
+        <vaadin.azure.functionAppName>cloudui-vaadin</vaadin.azure.functionAppName>
+        <vaadin.azure.functionAppRegion>germanywestcentral</vaadin.azure.functionAppRegion>
+        <vaadin.azure.functionResourceGroup>net.moewes.azure-test</vaadin.azure.functionResourceGroup>
+      </properties>
+    </profile>
+  </profiles>
 
 </settings>
