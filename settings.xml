@@ -28,9 +28,9 @@
     <profile>
       <id>github</id>
       <properties>
-        <vaadin.azure.functionAppName>cloudui-vaadin</vaadin.azure.functionAppName>
+        <vaadin.azure.functionAppName>xxx</vaadin.azure.functionAppName>
         <vaadin.azure.functionAppRegion>germanywestcentral</vaadin.azure.functionAppRegion>
-        <vaadin.azure.functionResourceGroup>net.moewes.azure-test</vaadin.azure.functionResourceGroup>
+        <vaadin.azure.functionResourceGroup>yyy</vaadin.azure.functionResourceGroup>
       </properties>
     </profile>
   </profiles>
