@@ -29,6 +29,7 @@ public class ButtonView extends Div {
                 buttonLayout.add(button);
                 button.setType(type);
                 button.setColor(color);
+                button.addEventListener("click", uiEvent -> {});
             });
         });
         Arrays.stream(Button.Size.values()).forEach(size -> {

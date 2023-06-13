@@ -4,8 +4,16 @@
 # https://help.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
 
 version: 2
+registries:
+  github-cloudui-quarkus:
+    type: "maven-repository"
+    url: "https://maven.pkg.github.com/moewes"
+    username: "x-access-token"
+    password: ${{ secrets.GITHUB_TOKEN }}
 updates:
   - package-ecosystem: "maven"
+    registries:
+      - "github-cloudui-quarkus"
     directory: "/"
     schedule:
       interval: "daily"
