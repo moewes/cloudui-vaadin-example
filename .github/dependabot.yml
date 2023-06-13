@@ -5,7 +5,7 @@
 
 version: 2
 registries:
-  github-cloudui-quarkus:
+  maven-github:
     type: "maven-repository"
     url: "https://maven.pkg.github.com/moewes"
     username: "x-access-token"
@@ -13,7 +13,7 @@ registries:
 updates:
   - package-ecosystem: "maven"
     registries:
-      - "github-cloudui-quarkus"
+      - "maven-github"
     directory: "/"
     schedule:
       interval: "daily"
