@@ -120,7 +120,8 @@
                     <pushRemote>true</pushRemote>
                     <versionDigitToIncrement>2</versionDigitToIncrement>
                     <gitFlowConfig>
-                        <developmentBranch>master</developmentBranch>
+                        <developmentBranch>main</developmentBranch>
+                        <productionBranch>main</productionBranch>
                     </gitFlowConfig>
                 </configuration>
             </plugin>
