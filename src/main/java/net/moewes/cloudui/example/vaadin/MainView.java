@@ -4,6 +4,7 @@ import net.moewes.cloudui.UiComponent;
 import net.moewes.cloudui.annotations.CloudUiView;
 import net.moewes.cloudui.html.Div;
 import net.moewes.cloudui.html.H1;
+import net.moewes.cloudui.html.Label;
 
 @CloudUiView("/")
 public class MainView extends Div {
@@ -22,6 +23,11 @@ public class MainView extends Div {
         add(getLink("Notification","/vaadin/notification"));
         add(getLink("Tabs","/vaadin/tabs"));
         add(getLink("Text Fields",        "/vaadin/textField"));
+
+        String version = getClass().getPackage().getImplementationVersion();
+        String programm = getClass().getPackage().getImplementationTitle();
+
+        add(new Label(programm + " Version: " + version));
     }
 
     private UiComponent getLink(String text, String url)  {
